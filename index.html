@@ -1185,6 +1185,21 @@ try{
 
 })();
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDB0-xOCIiIIaYE57FlLFJtXTYsfw4UdkM",
+  authDomain: "shokh-s-project.firebaseapp.com",
+  databaseURL: "https://shokh-s-project-default-rtdb.firebaseio.com/",
+  projectId: "shokh-s-project",
+  storageBucket: "shokh-s-project.firebasestorage.app",
+  messagingSenderId: "1052896898568",
+  appId: "1:1052896898568:web:dcf5cd2fc4d1910545ebbd"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getDatabase(app);
+
+console.log("Firebase connected!");
+  
 </script>
 </body>
 </html>
